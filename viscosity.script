@@ -1,0 +1,8 @@
+tell application "Viscosity"
+
+  set connectionState to state of the first connection
+  return connectionState
+
+end tell
+
+
